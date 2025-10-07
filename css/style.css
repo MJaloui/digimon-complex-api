@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/151/415/desktop-wallpaper-digimon-minimalist-evolution-line-agumon-evolution.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.655);
+    font-size: 40px;
+    padding: 20px;
+   
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.655);
+    font-size: 30px;
+    padding: 15px;
+    
+}
+
+button {
+    background-color: hsl(237, 84%, 38%);
+    color: white;
+    font-size: 30px;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+h3 {
+  background-color: hsl(237, 84%, 38%);
+  color: white;
+  padding: 10px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
